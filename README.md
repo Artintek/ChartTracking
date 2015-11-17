@@ -1,5 +1,5 @@
 # ChartTracking
-Find the location of patient charts.
+Find the location of objects.
 
 Currently I got an RFID sensor detecting tags when one comes within reach.
 

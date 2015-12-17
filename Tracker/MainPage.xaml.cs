@@ -13,7 +13,15 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+/** \mainpage Chart Tracker
+ * 
+ * \section observer_sec Observer Design Pattern
+ * 
+ * The RFID sensor will be configured to be a provider. Once an event occurs
+ * a notice will be emited. A separate entity will serve as an observer, and
+ * this will display the status of the event.
+ *
+ */
 
 namespace Tracker
 {
